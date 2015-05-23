@@ -2,6 +2,6 @@
   "name": "WebBlocks-wrapper-webcomponentsjs",
   "version": "0.6.1",
   "dependencies": {
-    "webcomponentsjs": "~0.6.1"
+    "webcomponentsjs": "0.6.1"
   }
 }
