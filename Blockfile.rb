@@ -1,4 +1,8 @@
-block 'webcomponentsjs', :path => 'bower_components/webcomponentsjs' do |webcomponentsjs|
+require 'web_blocks/facade/external_component_block'
+
+register_facade :external_component_block, ::WebBlocks::Facade::ExternalComponentBlock
+
+external_component_block 'webcomponentsjs' do
 
   block 'lite' do
     js_file 'webcomponents-lite.js'
